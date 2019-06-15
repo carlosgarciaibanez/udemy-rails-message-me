@@ -11,3 +11,8 @@ User.create username: 'andy', password: 'password'
 User.create username: 'jason', password: 'password'
 User.create username: 'cindy', password: 'password'
 User.create username: 'karen', password: 'password'
+
+Message.create body: "I feel so lonely...", user_id: 3
+Message.create body: "I have nobody to talk to", user_id: 3
+Message.create body: "Hi, Jason", user_id: 2
+Message.create body: "Hi, guys", user_id: 4
